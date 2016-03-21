@@ -9,7 +9,7 @@ First you will need to output the fitting 'week-matrix' data representation. It 
 
 Setting Hyperparameters
 -------------------
-We use Bayesian optimization to find a good set of hyperparameters for our ConvNet (see the paper for more details). Our Caffe definition files do therefore not include these parameters. To use our ConvNet architecture you must therefore insert these hyperparameters into the prototxt files at the lines marked with `<"insert`>".
+We use Bayesian optimization to find a good set of hyperparameters for our ConvNet (see the paper for more details). Our Caffe definition files do therefore not include these parameters. To use our ConvNet architecture you must therefore insert these hyperparameters into the prototxt files at the lines marked with `<"insert`>"`.
 
 Training and Testing
 --------------------------------------
