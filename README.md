@@ -17,6 +17,6 @@ You should be good to go once the solver.prototxt and prototxt files for the arc
 
 Pretrained Models
 --------------------------------------
-A pretrained model for age or gender prediction can be loaded with the code `net = caffe.Net(path_prototxt, path_pretrained)`. These pretrained models can be used for feature extraction using `net.blobs[layer_name].data`, where `layer_name` is the name of the layer that you want to extract features from. These features can then be fed into an SVM for classification (see the paper).
+A pretrained model for age or gender prediction can be loaded with the code `net = caffe.Net(path_prototxt, path_pretrained)` using the .prototxt and .caffemodel files provided in this repository. These pretrained models can be used for feature extraction using `net.blobs[layer_name].data`, where `layer_name` is the name of the layer that you want to extract features from. These features can then be fed into an SVM for classification (see the paper).
 
 Feel free to send any questions to felbo@mit.edu.
